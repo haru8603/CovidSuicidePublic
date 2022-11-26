@@ -1,5 +1,5 @@
 # Covid Suicide
-Replication code for the impact of reduced mobility on suicide during the COVID-19 pandemic
+Replication code for the impact of reduced mobility on suicide during the COVID-19 pandemic. The data are available on request
 
 # Install
 
