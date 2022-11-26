@@ -9,6 +9,9 @@ Replication code for the impact of reduced mobility on suicide during the COVID-
 - ```figuretable```: Storage figure and table in Latex format
 
 # Code Structure
+- ```estimate_main_result```: Make estimation results in the main text　
+- ```make_figure```: Make figures in the main text
+- ```appendix```: Run additional estimation and make figures in the online appendix
 
 # Table and Figures
 - Figure 1 
