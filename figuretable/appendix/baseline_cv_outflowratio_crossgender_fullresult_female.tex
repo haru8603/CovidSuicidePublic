@@ -1,0 +1,70 @@
+\begin{tabular}{l*{8}{c}} \toprule
+                    &\multicolumn{4}{c}{Outflow Ratio}                                                      &\multicolumn{4}{c}{CV}                                                                 \\\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         &\multicolumn{1}{c}{(7)}         &\multicolumn{1}{c}{(8)}         \\
+                    &         OLS         &   1st Stage         &          IV         &Reduced form         &         OLS         &   1st Stage         &          IV         &Reduced form         \\
+\hline \\ \multicolumn{9}{l}{\textbf{\underline{(A)Under 20}}} \\\\[-1ex]
+Mobility index      &      -2.436\sym{**} &                     &      -5.254\sym{**} &                     &      -0.319\sym{**} &                     &      -0.616\sym{**} &                     \\
+                    &     (1.089)         &                     &     (2.529)         &                     &     (0.135)         &                     &     (0.292)         &                     \\
+\addlinespace
+CV for non-residents&                     &                     &                     &                     &       0.031         &       0.158         &       0.056         &       0.055         \\
+                    &                     &                     &                     &                     &     (0.055)         &     (0.165)         &     (0.058)         &     (0.172)         \\
+\addlinespace
+Log(Active job opening ratio)&      -0.033         &       0.004\sym{***}&       0.002         &      -0.020         &      -0.029         &       0.036\sym{***}&       0.003         &       0.033         \\
+                    &     (0.089)         &     (0.001)         &     (0.093)         &     (0.091)         &     (0.089)         &     (0.012)         &     (0.093)         &     (0.163)         \\
+\addlinespace
+Log(Patient)        &       0.028         &      -0.003\sym{***}&       0.008         &       0.027         &       0.027         &      -0.029\sym{***}&       0.010         &       0.033         \\
+                    &     (0.030)         &     (0.001)         &     (0.033)         &     (0.031)         &     (0.030)         &     (0.005)         &     (0.032)         &     (0.052)         \\
+\addlinespace
+Male commuting ratio&                     &      -0.115\sym{***}&                     &       0.603\sym{**} &                     &      -1.013\sym{***}&                     &       0.548         \\
+                    &                     &     (0.006)         &                     &     (0.290)         &                     &     (0.049)         &                     &     (0.543)         \\
+\hline \\ \multicolumn{9}{l}{\textbf{\underline{(B)20-39}}} \\\\[-1ex]
+Mobility index      &      -0.519         &                     &       0.892         &                     &      -0.064         &                     &       0.112         &                     \\
+                    &     (0.423)         &                     &     (1.116)         &                     &     (0.052)         &                     &     (0.127)         &                     \\
+\addlinespace
+CV for non-residents&                     &                     &                     &                     &      -0.010         &       0.045         &      -0.025         &       0.016         \\
+                    &                     &                     &                     &                     &     (0.029)         &     (0.048)         &     (0.030)         &     (0.049)         \\
+\addlinespace
+Log(Active job opening ratio)&      -0.041         &       0.004\sym{***}&      -0.059         &      -0.055         &      -0.040         &       0.036\sym{***}&      -0.059         &       0.009         \\
+                    &     (0.037)         &     (0.001)         &     (0.039)         &     (0.038)         &     (0.037)         &     (0.012)         &     (0.039)         &     (0.047)         \\
+\addlinespace
+Log(Patient)        &       0.005         &      -0.003\sym{***}&       0.015         &       0.012         &       0.004         &      -0.029\sym{***}&       0.014         &       0.009         \\
+                    &     (0.014)         &     (0.001)         &     (0.015)         &     (0.014)         &     (0.014)         &     (0.005)         &     (0.015)         &     (0.015)         \\
+\addlinespace
+Male commuting ratio&                     &      -0.115\sym{***}&                     &      -0.102         &                     &      -1.013\sym{***}&                     &       0.158         \\
+                    &                     &     (0.006)         &                     &     (0.128)         &                     &     (0.049)         &                     &     (0.156)         \\
+\hline \\ \multicolumn{9}{l}{\textbf{\underline{(C)40-59}}} \\\\[-1ex]
+Mobility index      &      -1.351\sym{***}&                     &      -1.185         &                     &      -0.141\sym{***}&                     &      -0.125         &                     \\
+                    &     (0.344)         &                     &     (0.949)         &                     &     (0.042)         &                     &     (0.108)         &                     \\
+\addlinespace
+CV for non-residents&                     &                     &                     &                     &      -0.015         &       0.038         &      -0.017         &       0.013         \\
+                    &                     &                     &                     &                     &     (0.026)         &     (0.040)         &     (0.026)         &     (0.041)         \\
+\addlinespace
+Log(Active job opening ratio)&       0.053         &       0.004\sym{***}&       0.050         &       0.046         &       0.052         &       0.036\sym{***}&       0.050         &       0.008         \\
+                    &     (0.034)         &     (0.001)         &     (0.035)         &     (0.035)         &     (0.034)         &     (0.012)         &     (0.036)         &     (0.039)         \\
+\addlinespace
+Log(Patient)        &       0.016         &      -0.003\sym{***}&       0.017         &       0.021\sym{*}  &       0.016         &      -0.029\sym{***}&       0.017         &       0.008         \\
+                    &     (0.011)         &     (0.001)         &     (0.012)         &     (0.011)         &     (0.011)         &     (0.005)         &     (0.012)         &     (0.013)         \\
+\addlinespace
+Male commuting ratio&                     &      -0.115\sym{***}&                     &       0.136         &                     &      -1.013\sym{***}&                     &       0.132         \\
+                    &                     &     (0.006)         &                     &     (0.109)         &                     &     (0.049)         &                     &     (0.131)         \\
+\hline \\ \multicolumn{9}{l}{\textbf{\underline{(D)Over 60}}} \\\\[-1ex]
+Mobility index      &      -0.730\sym{**} &                     &      -0.441         &                     &      -0.069         &                     &      -0.050         &                     \\
+                    &     (0.367)         &                     &     (0.957)         &                     &     (0.044)         &                     &     (0.110)         &                     \\
+\addlinespace
+CV for non-residents&                     &                     &                     &                     &       0.003         &       0.033         &       0.002         &       0.012         \\
+                    &                     &                     &                     &                     &     (0.032)         &     (0.035)         &     (0.033)         &     (0.036)         \\
+\addlinespace
+Log(Active job opening ratio)&      -0.027         &       0.004\sym{***}&      -0.031         &      -0.032         &      -0.029         &       0.036\sym{***}&      -0.031         &       0.007         \\
+                    &     (0.033)         &     (0.001)         &     (0.035)         &     (0.034)         &     (0.033)         &     (0.012)         &     (0.035)         &     (0.034)         \\
+\addlinespace
+Log(Patient)        &       0.003         &      -0.003\sym{***}&       0.005         &       0.007         &       0.004         &      -0.029\sym{***}&       0.005         &       0.007         \\
+                    &     (0.011)         &     (0.001)         &     (0.012)         &     (0.011)         &     (0.011)         &     (0.005)         &     (0.012)         &     (0.011)         \\
+\addlinespace
+Male commuting ratio&                     &      -0.115\sym{***}&                     &       0.051         &                     &      -1.013\sym{***}&                     &       0.115         \\
+                    &                     &     (0.006)         &                     &     (0.110)         &                     &     (0.049)         &                     &     (0.114)         \\
+\hline
+F statistic         &                     &     414.315         &                     &                     &                     &     431.352         &                     &                     \\
+Effective F statistic&                     &     414.315         &                     &                     &                     &     431.352         &                     &                     \\
+tau=10\%            &                     &      23.109         &                     &                     &                     &      23.109         &                     &                     \\
+Observation         &        1889         &        1889         &        1889         &        1889         &        1889         &        1889         &        1889         &        1889         \\
+\bottomrule \multicolumn{9}{l}{\footnotesize Standard errors in parentheses}\\ \multicolumn{8}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)} \end{tabular}
