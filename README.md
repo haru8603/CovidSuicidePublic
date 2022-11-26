@@ -1,5 +1,5 @@
 # Covid Suicide
-Replication code for **the impact of reduced mobility on suicide during the COVID-19 pandemic**. The data are available on request to corresponding authors.
+Replication code for **the impact of reduced mobility on suicide during the COVID-19 pandemic**. All code are written in Stata17 and run in Jupyter Notebook. The data are available on request to corresponding authors.
 
 # Install
 
