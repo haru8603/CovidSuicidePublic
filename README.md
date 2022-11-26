@@ -6,3 +6,8 @@ Replication code for the impact of reduced mobility on suicide during the COVID-
 # Folder Structure
 
 # Code Structure
+
+# Table and Figures
+- Figure 1 
+- Figure 2
+- Figure 3 
