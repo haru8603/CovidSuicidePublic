@@ -19,7 +19,7 @@ The data are available on request to corresponding authors.
   - Export estimation results in Latex format.
 - ```make_figure```: Make figures in the main text and appendix.
   - Note that pre-trend figure is in ```estimate_main_result``` and specification curve figure in ```estimate_robustness```. 
-- ```appendix```: Run additional estimation and tables in the online appendix. 
+- ```appendix```: Run additional estimation and tables in the online appendix section A. 
   - Export estimation results in Latex format.
 
 # Table and Figures
