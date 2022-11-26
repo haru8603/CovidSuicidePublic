@@ -11,7 +11,7 @@ Replication code for **the impact of reduced mobility on suicide during the COVI
 # Code Structure
 - ```estimate_main_result```: Make estimation results in the section 4. Export estimation results in Latex format.
 - ```estimate_robustness```: Make estimation results in the section 5. Export estimation results in Latex format.
-- ```make_figure```: Make figures in the main text.
+- ```make_figure```: Make all figures in the main text.
 - ```appendix```: Run additional estimation and make figures in the online appendix. Export estimation results in Latex format.
 
 # Table and Figures
