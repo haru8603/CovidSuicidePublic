@@ -3,7 +3,7 @@ Replication code for **"The impact of reduced mobility on suicide during the COV
 
 All code are written in Stata17 and run in Jupyter Notebook. 
 
-The data are available on request to corresponding authors.
+The data are available upon request to corresponding authors.
 
 # Install
 
