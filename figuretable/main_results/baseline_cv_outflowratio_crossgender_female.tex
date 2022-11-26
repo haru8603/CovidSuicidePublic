@@ -1,0 +1,27 @@
+\begin{tabular}{l*{4}{c}} \toprule
+                    &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{1st Stage}&\multicolumn{1}{c}{IV}&\multicolumn{1}{c}{Reduced form}\\\cmidrule(lr){2-2}\cmidrule(lr){3-3}\cmidrule(lr){4-4}\cmidrule(lr){5-5}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         \\
+Dependent variables: &Log(Female suicide)         &Mobility index         &Log(Female suicide)         &Log(Female suicide)         \\
+\hline \\ \multicolumn{5}{l}{\textbf{\underline{(A)Outflow ratio}}} \\\\[-1ex]
+Outflow ratio       &      -0.948\sym{***}&                     &      -0.735         &                     \\
+                    &     (0.263)         &                     &     (0.574)         &                     \\
+\addlinespace
+Male commuting ratio&                     &      -0.134\sym{***}&                     &       0.099         \\
+                    &                     &     (0.005)         &                     &     (0.077)         \\
+\midrule
+F statistic         &                     &     778.128         &                     &                     \\
+Effective F statistic&                     &     778.128         &                     &                     \\
+tau=10\%            &                     &      23.109         &                     &                     \\
+Observations        &        1891         &        1891         &        1891         &        1891         \\
+\hline \\ \multicolumn{5}{l}{\textbf{\underline{(B)CV}}} \\\\[-1ex]
+CV                  &      -0.097\sym{***}&                     &      -0.083         &                     \\
+                    &     (0.030)         &                     &     (0.065)         &                     \\
+\addlinespace
+Male commuting ratio&                     &      -1.191\sym{***}&                     &       0.099         \\
+                    &                     &     (0.040)         &                     &     (0.077)         \\
+\midrule
+F statistic         &                     &     879.439         &                     &                     \\
+Effective F statistic&                     &     879.439         &                     &                     \\
+tau=10\%            &                     &      23.109         &                     &                     \\
+Observations        &        1891         &        1891         &        1891         &        1891         \\
+\bottomrule \multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\ \multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)} \end{tabular}

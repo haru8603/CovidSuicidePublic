@@ -1,0 +1,28 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{8}{D{.}{.}{-1}}}
+\toprule
+                    &\multicolumn{1}{c}{1st Stage}&\multicolumn{1}{c}{IV}&\multicolumn{1}{c}{1st Stage}&\multicolumn{1}{c}{IV}&\multicolumn{1}{c}{1st Stage}&\multicolumn{1}{c}{IV}&\multicolumn{1}{c}{1st Stage}&\multicolumn{1}{c}{IV}\\\cmidrule(lr){2-2}\cmidrule(lr){3-3}\cmidrule(lr){4-4}\cmidrule(lr){5-5}\cmidrule(lr){6-6}\cmidrule(lr){7-7}\cmidrule(lr){8-8}\cmidrule(lr){9-9}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         &\multicolumn{1}{c}{(7)}         &\multicolumn{1}{c}{(8)}         \\
+Dependent Variables: &Outflow ratio         &Log(Female suicide)         &Outflow ratio         &Log(Female suicide)         &          CV         &Log(Female suicide)         &          CV         &Log(Female suicide)         \\
+\midrule
+                    &                     &                     &                     &                     &                     &                     &                     &                     \\
+Mobility index      &                     &      -6.198\sym{*}  &                     &      -5.903\sym{*}  &                     &                     &                     &                     \\
+                    &                     &     (3.422)         &                     &     (3.321)         &                     &                     &                     &                     \\
+\addlinespace
+CV                  &                     &                     &                     &                     &                     &      -0.671\sym{*}  &                     &      -0.646\sym{*}  \\
+                    &                     &                     &                     &                     &                     &     (0.391)         &                     &     (0.380)         \\
+\addlinespace
+Male commuting ratio&       0.134\sym{***}&                     &       0.232\sym{***}&                     &       1.191\sym{***}&                     &       1.937\sym{***}&                     \\
+                    &     (0.005)         &                     &     (0.018)         &                     &     (0.041)         &                     &     (0.151)         &                     \\
+\addlinespace
+Female commuting ratio&                     &                     &      -0.112\sym{***}&                     &                     &                     &      -0.859\sym{***}&                     \\
+                    &                     &                     &     (0.020)         &                     &                     &                     &     (0.168)         &                     \\
+\midrule
+F statistic         &    1510.702         &                     &    1033.757         &                     &    1250.569         &                     &     853.622         &                     \\
+Observation         &        3782         &         744         &        3782         &         744         &        3782         &         744         &        3782         &         744         \\
+\bottomrule
+\multicolumn{9}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{9}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}
