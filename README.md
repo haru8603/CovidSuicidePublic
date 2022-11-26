@@ -12,6 +12,10 @@ The data are available upon request to corresponding authors.
 2. Clone this repository into your local environment by 
 
     ```git clone git@github.com:haru8603/CovidSuicidePublic.git```
+    
+   or download in zip
+   
+   ![image](https://user-images.githubusercontent.com/38587774/204088864-abf6d624-01a4-4ca3-bf95-01459dadf9b9.png)
 
 3. Put data which we provide upon request to ```data``` folder  **by yourself**.
 
