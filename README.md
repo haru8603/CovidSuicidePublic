@@ -4,6 +4,9 @@ Replication code for the impact of reduced mobility on suicide during the COVID-
 # Install
 
 # Folder Structure
+- main: Storage code for estimation, figures, and tables
+- data: Storage cleand data
+- figuretable: Storage figure and table in Latex format
 
 # Code Structure
 
