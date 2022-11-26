@@ -13,6 +13,8 @@ The data are available on request to corresponding authors.
 
     ```git clone git@github.com:haru8603/CovidSuicidePublic.git```
 
+3. Put data which we provide upon request to ```data``` folder  **by yourself**.
+
 # Folder Structure
 - ```main```: Storage code for estimation, figures, and tables.
 - ```data```: Storage cleand data.
