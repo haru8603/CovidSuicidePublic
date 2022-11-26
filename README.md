@@ -21,7 +21,7 @@ The data are available upon request to corresponding authors.
 
 # Folder Structure
 - ```main```: Storage code for estimation, figures, and tables.
-- ```data```: Storage cleand data.
+- ```data```: Storage cleaned data.
 - ```figuretable```: Storage figure and table in Latex format.
 
 # Code Structure
