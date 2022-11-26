@@ -28,7 +28,3 @@ The data are available on request to corresponding authors.
 - ```appendix```: Run additional estimation and tables in the online appendix section A. 
   - Export estimation results in Latex format.
 
-# Table and Figures
-- Figure 1 
-- Figure 2
-- Figure 3 
