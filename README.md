@@ -11,7 +11,7 @@ The data are available on request to corresponding authors.
 
 2. Clone this repository into your local environment by 
 
-```git clone git@github.com:haru8603/CovidSuicidePublic.git```
+    ```git clone git@github.com:haru8603/CovidSuicidePublic.git```
 
 # Folder Structure
 - ```main```: Storage code for estimation, figures, and tables.
