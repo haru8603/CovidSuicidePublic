@@ -1,11 +1,17 @@
 # Covid Suicide
-Replication code for **the impact of reduced mobility on suicide during the COVID-19 pandemic**. 
+Replication code for **"The impact of reduced mobility on suicide during the COVID-19 pandemic"**. 
 
 All code are written in Stata17 and run in Jupyter Notebook. 
 
 The data are available on request to corresponding authors.
 
 # Install
+
+1. Install Stata 17.0, the latest version of Python, and Jupyter notebook. Note that Stata older than Stata 17.0 may not work in notebook.
+
+2. Clone this repository into your local environment by 
+
+```git clone git@github.com:haru8603/CovidSuicidePublic.git```
 
 # Folder Structure
 - ```main```: Storage code for estimation, figures, and tables.
