@@ -15,7 +15,7 @@ The data are available on request to corresponding authors.
 # Code Structure
 - ```estimate_main_result```: Make estimation results in the section 4. Export estimation results in Latex format.
 - ```estimate_robustness```: Make estimation results in the section 5. Export estimation results in Latex format.
-- ```make_figure```: Make all figures in the main text and appendix.
+- ```make_figure```: Make figures in the main text and appendix. Note Pre-trend figure is in ```estimate_main_result``` and specification curve figure in ```estimate_robustness```. 
 - ```appendix```: Run additional estimation and make figures in the online appendix. Export estimation results in Latex format.
 
 # Table and Figures
