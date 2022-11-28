@@ -13,7 +13,10 @@ The data are available upon request to corresponding authors.
         - ivreghdfe: version 1.1.1
         - ivreg2: version 4.1.11
         - coefplot: version 1.8.4
-    
+        - esttab: version 2.1.0
+    - Main packages in Python
+        - stata_setup: version 0.1.2
+       
 2. Clone this repository into your local environment by 
 
     ```git clone git@github.com:haru8603/CovidSuicidePublic.git```
