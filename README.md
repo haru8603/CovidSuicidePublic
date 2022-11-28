@@ -7,8 +7,13 @@ The data are available upon request to corresponding authors.
 
 # Install
 
-1. Install Stata 17.0, the latest version of Python, and Jupyter Notebook. Note that Stata older than Stata 17.0 may not work in notebook.
-
+1. Install the latest version of Python, Stata 17.0, and Jupyter Notebook. Note that Stata older than Stata 17.0 may not work in notebook.
+    - Main packages in Stata 17.0
+        - reghdfe: version 6.12.2
+        - ivreghdfe: version 1.1.1
+        - ivreg2: version 4.1.11
+        - coefplot: version 1.8.4
+    
 2. Clone this repository into your local environment by 
 
     ```git clone git@github.com:haru8603/CovidSuicidePublic.git```
