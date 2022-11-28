@@ -24,7 +24,7 @@ The data are available upon request to corresponding authors.
     
    or download in zip
    
-   ![image](https://user-images.githubusercontent.com/38587774/204088864-abf6d624-01a4-4ca3-bf95-01459dadf9b9.png)
+    ![image](https://user-images.githubusercontent.com/38587774/204181995-4ee83d06-7825-45e6-8340-4fb9c49e702c.png)
 
 3. Put data which we provide upon request to ```data``` folder  **by yourself**.
 
