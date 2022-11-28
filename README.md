@@ -14,6 +14,7 @@ The data are available upon request to corresponding authors.
         - ivreg2: version 4.1.11
         - coefplot: version 1.8.4
         - esttab: version 2.1.0
+        - speccurve: 1.13
     - Main packages in Python
         - stata_setup: version 0.1.2
        
