@@ -1,5 +1,5 @@
 # Covid Suicide
-Replication code for **"The impact of reduced mobility on suicide during the COVID-19 pandemic"**. 
+Replication code for **"The Effect of Voluntary Staying at Home on Japanese Female Suicide \\ during the COVID-19 Pandemic"**. 
 
 All codes are written in Stata17 and run in Jupyter Notebook. 
 
