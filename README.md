@@ -1,14 +1,14 @@
 # Covid Suicide
 Replication code for **"The Effect of Voluntary Staying at Home on Japanese Female Suicide during the COVID-19 Pandemic"**. 
 
-All codes are written in Stata17 and run in Jupyter Notebook. 
+All codes are written in Stata18 and run in Jupyter Notebook. 
 
 The data are available upon request to the corresponding authors.
 
 # Install
 
-1. Install the latest version of Python, Stata 17.0, and Jupyter Notebook. Note that Stata older than Stata 17.0 may not work in  Jupyter Notebook.
-    - Main packages in Stata 17.0
+1. Install the latest version of Python, Stata 18.0, and Jupyter Notebook. Note that Stata older than Stata 18.0 may not work in  Jupyter Notebook.
+    - Main packages in Stata 18.0
         - reghdfe: version 6.12.2
         - ivreghdfe: version 1.1.1
         - ivreg2: version 4.1.11
@@ -22,9 +22,9 @@ The data are available upon request to the corresponding authors.
 
     ```git clone git@github.com:haru8603/CovidSuicidePublic.git```
     
-   or download in zip
+   or download in a zip
    
-    ![image](https://user-images.githubusercontent.com/38587774/204181995-4ee83d06-7825-45e6-8340-4fb9c49e702c.png)
+   ![image](https://github.com/haru8603/CovidSuicidePublic/assets/38587774/d6f45e72-f433-4e1b-ae16-eec43be33354)
 
 3. Put data that we provide upon request into ```data``` folder  **by yourself**.
 
@@ -40,6 +40,6 @@ The data are available upon request to the corresponding authors.
   - Export estimation results in Latex format.
 - ```make_figure```: Make figures in the main text and appendix.
   - Note that the pre-trend figure is in ```estimate_main_result``` and the specification curve figure in ```estimate_robustness```. 
-- ```appendix```: Run additional estimation and tables in the online appendix section A. 
+- ```appendix```: Run additional estimation and tables in the online appendix. 
   - Export estimation results in Latex format.
 
