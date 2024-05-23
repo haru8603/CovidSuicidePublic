@@ -17,7 +17,7 @@ The data are available upon request to the corresponding authors.
         - speccurve: 1.13 from (<a href="url">https://github.com/martin-andresen/speccurve</a>)
     - Main packages in Python
         - stata_setup: version 0.1.2
-       
+    
 2. Clone this repository into your local environment by 
 
     ```git clone git@github.com:haru8603/CovidSuicidePublic.git```
@@ -31,15 +31,10 @@ The data are available upon request to the corresponding authors.
 # Folder Structure
 - ```main```: Storage code for estimation, figures, and tables.
 - ```data```: Storage cleaned data.
-- ```figuretable```: Storage figure and table in Latex format.
+- ```figuretable```: Storage figures and tables.
 
 # Code Structure
-- ```estimate_main_result```: Make estimation results in section 4. 
-  - Export estimation results in Latex format.
-- ```estimate_robustness```: Make estimation results in section 5. 
-  - Export estimation results in Latex format.
-- ```make_figure```: Make figures in the main text and appendix.
-  - Note that the pre-trend figure is in ```estimate_main_result``` and the specification curve figure in ```estimate_robustness```. 
-- ```appendix```: Run additional estimation and tables in the online appendix. 
-  - Export estimation results in Latex format.
+- ```estimate_main_result.ipynb```: Make estimation results. 
+- ```introduction_model_data.ipynb```: Make figures in introduction, model, and data section.
+- ```appendix.ipynb```: Run additional estimation and tables in the online appendix. 
 
