@@ -4,4 +4,5 @@
 .Ruserdata
 .csv
 suicide_analysis_data.dta
+suicide_analysis_data_static.dta
 from_to_population_flow_hour_agoop.dta
