@@ -1,0 +1,534 @@
+StataFileTM:00001:01000:LiveGPH:                       :
+00008:00008:
+*! classname: twowaygraph_g
+*! family: twoway
+*! command: twoway rcap bup_base bdn_base indx1,lcolor(navy)  || scatter bvl_base indx1,msize(1.0) ms(circle)  mlcolor(blue) mfcolor(blue*.3)  || rcap bup_city bdn_city indx2,lcolor(navy)  || scatter bvl_city indx2,msize(1.0) ms(circle)  mlcolor(blue) mfcolor(red*.3)  || rcap bup_ind bdn_ind indx3,lcolor(navy)  || scatter bvl_ind indx3,msize(1.0) ms(circle)  mlcolor(green) mfcolor(green*.3) ||  rcap bup_eff bdn_eff indx4,lcolor(navy)  || scatter bvl_eff indx4 , msize(1.0) ms(circle)  mlcolor(magenta) mfcolor(magenta*.3) || rcap bup_unemp bdn_unemp indx5,lcolor(navy)  || scatter bvl_unemp indx5,msize(1.0) ms(circle)  mlcolor(maroon) mfcolor(maroon*.3)  || rcap bup_actopn bdn_actopn indx6,lcolor(navy)  || scatter bvl_actopn indx6,msize(1.0) ms(circle)  mlcolor(mint) mfcolor(mint*.3) ||  rcap bup_une_act bdn_une_act indx7,lcolor(navy)  || scatter bvl_une_act indx7 , msize(1.0) ms(circle)  mlcolor(navy) mfcolor(navy*.3) || rcap bup_ihs bdn_ihs indx8,lcolor(navy)  || scatter bvl_ihs indx8 , msize(1.0) ms(circle)  mlcolor(cyan) mfcolor(cyan*.3)  name("",replace)  saving("event_graph_fu20_2_single_iv",replace) legend(off) title("")  xtitle("")  xsc(range(1 ))  xlabel(0 "2015" 1 "2016" 2 "2017" 3 "2018" 4 "2019" 5 "2020",  labsize(small) angle(0)) legend(on order(2 "baseline" 4 "group specific trend: city" 6 "group specific trend: industry" 8 "group specific trend: city, industry and others" 10 "unemployment rate" 12 "active opening ratio" 14 "unemployment rate and active opening rate" 16 "inverse hypebolic sine") row(6) position(6) size(small)) yline(0, lcolor(red) lwidth(medthick))
+*! command_date: 26 Oct 2025
+*! command_time: 11:00:17
+*! datafile: suicide_f_reduced.dta
+*! datafile_date: 26 Oct 2025 11:00
+*! scheme: stcolor
+*! naturallywhite: 1
+*! xsize: 7.5
+*! ysize: 4.5
+*! end
+<BeginItem> serset K1f28ee24898 
+<BeginSerset>
+<BeginSeries>
+.name = `"bup_base"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .3942177593708038
+.max =  3.126704692840576
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bdn_base"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -1.713910937309265
+.max =  .6675254106521606
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"indx1"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.2800000011920929
+.max =  4.71999979019165
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bvl_base"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.6598466038703918
+.max =  1.897114992141724
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bup_city"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .4139315783977509
+.max =  3.045978546142578
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bdn_city"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -1.693784952163696
+.max =  .576177716255188
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"indx2"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.2000000029802322
+.max =  4.800000190734863
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bvl_city"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.6399266719818115
+.max =  1.811078190803528
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bup_ind"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .3649510443210602
+.max =  3.235023736953735
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bdn_ind"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -1.908942461013794
+.max =  .2386971712112427
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"indx3"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.119999997317791
+.max =  4.880000114440918
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bvl_ind"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.7719957232475281
+.max =  1.736860394477844
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bup_eff"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .2000456899404526
+.max =  4.47695779800415
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bdn_eff"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -1.959245085716248
+.max =  .8750449419021606
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"indx4"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.0399999991059303
+.max =  4.960000038146973
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bvl_eff"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.8795996904373169
+.max =  2.67600154876709
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bup_unemp"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .3226145803928375
+.max =  3.170501947402954
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bdn_unemp"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -1.934378385543823
+.max =  .6467732787132263
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"indx5"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .0399999991059303
+.max =  5.039999961853027
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bvl_unemp"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.8058819174766541
+.max =  1.908637642860413
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bup_actopn"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .3595240414142609
+.max =  3.189673185348511
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bdn_actopn"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -1.889828324317932
+.max =  .6524134278297424
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"indx6"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .119999997317791
+.max =  5.119999885559082
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bvl_actopn"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.7651520967483521
+.max =  1.921043276786804
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bup_une_act"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .3113841712474823
+.max =  3.210151195526123
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bdn_une_act"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -2.023192405700684
+.max =  .6269535422325134
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"indx7"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .2000000029802322
+.max =  5.199999809265137
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bvl_une_act"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -.8559041619300842
+.max =  1.918552398681641
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bup_ihs"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .6649342179298401
+.max =  6.838799476623535
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bdn_ihs"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -2.890884637832642
+.max =  1.484932899475098
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"indx8"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .2800000011920929
+.max =  5.28000020980835
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bvl_ihs"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  -1.112975239753723
+.max =  4.161866188049316
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite        ˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛˛bup_base                                                                                                                                              bdn_base                                                                                                                                              indx1 04                                                                                                                                              bvl_base                                                                                                                                              bup_city                                                                                                                                              bdn_city                                                                                                                                              indx2                                                                                                                                                 bvl_city                                                                                                                                              bup_ind                                                                                                                                               bdn_ind                                                                                                                                               indx3                                                                                                                                                 bvl_ind                                                                                                                                               bup_eff                                                                                                                                               bdn_eff                                                                                                                                               indx4                                                                                                                                                 bvl_eff                                                                                                                                               bup_unemp                                                                                                                                             bdn_unemp                                                                                                                                             indx5                                                                                                                                                 bvl_unemp                                                                                                                                             bup_actopn                                                                                                                                            bdn_actopn                                                                                                                                            indx6                                                                                                                                                 bvl_actopn                                                                                                                                            bup_une_act                                                                                                                                           bdn_une_act                                                                                                                                           indx7                                                                                                                                                 bvl_une_act                                                                                                                                           bup_ihs                                                                                                                                               bdn_ihs                                                                                                                                               indx8                                                                                                                                                 bvl_ihs                                                                                                                                               %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                    %9.0g                                                        ›:Ÿ?   ‡-l˚ø    ÖÎ—ø   †vÂø   ‡⁄}⁄?   @æ˚ø   †ôô…ø   ÄGz‰ø   †[[◊?   @ã˛ø   ‡Q∏æø   `0¥Ëø   ‡õ…?   `Yˇø   @·z§ø   @Æ%Ïø   †∑•‘?   ¿6Û˛ø   @·z§?   ‡»…Èø    q◊?   †º<˛ø   ‡Q∏æ?   @ |Ëø   ‡∑Ì”?   Ä/ ¿   †ôô…?    ëcÎø    $GÂ?    à ¿    ÖÎ—?    øŒÒø   ¿}	@   @^\Â?   †G·@   @ïZ˛?    *^@   @p‚?   @33@    -˙¸?    T·	@    °çŒ?   ¿Ö@    . ˚?   †gË@   @^ Ï?   @
+◊@   Äsh@    0]	@   ‡]≤‰?   ¿ı(@   †«â˛?   `sÑ	@    í‡‰?   @·z@   ‡óº˛?   ¿cÆ	@   ‡ ‰?   ¿ÃÃ@    d≤˛?   @ÓZ@    I¬˜?   `∏@   @¿•@Cr±?⁄™’æ)\èæ¯>ÿ™?'KÔæÕÃLæt‹>»ùè?Á˘Eøè¬ıΩQÉ2>{ÌÜ?ÓcSø
+◊#Ω"‹È=òπ?à†Òæ
+◊#=Ì6˘>≥≥¬?9øæè¬ı=•∑?~/ƒ?[C‰æÕÃL>ß?¶¶@≈24ø)\è>Í3Q?zí?ôq≥øÏQ8?πPÀæµ´?B∞øÕÃL?Œj¿æÍÃ¸>¥ŸøÆGa?yŒø∫yM?jT¥øè¬u?/õæó?rvƒø∏Ö?M—ÛæWç)?Hjºø)\è?9Gœæ˚ù?–®»øöôô?•≥Úæ4É?‰U¿
+◊£?√w+ø¯Âò?"Iøˆ(‹?ûïQ>æ˜ù?Ä$=øffÊ?ˆï}>ø?˚Å)ø◊£?®‘>VÀ«?.©
+øH·˙?øv?c…µ?[ô@ø\è@l˘™>ªè?ygÅøÆ@,tZ=°À¨?¿àføÕÃ@f>ºÚ @÷Ñ©øÖÎ@C¡∞>6Ú@ÿHõΩ{.@Ôí?ì@∆yUæ333@};Ä?$3˘?⁄øÏQ8@∑#3?]Õ?@Oø§p=@˛ßÀ>ó@Ùûæ\èB@ã≠y?ä‰!@a¸äΩÆG@ßåù?‚û@cvïæÕÃL@Ñ?Ñö~@ÏıæÖÎQ@%kˆ?È÷…>oa€ø{n@µÎ(ø◊Ó”>ÚÕÿø33s@<“#ø›⁄∫>:XÙøÏQx@É°Eø«ÿL>ã»˙ø§p}@r-aøΩ-•>∂ô˜øÆGÅ@GNNøâ∏>ÂÂÒø
+◊É@·Cøømü>¸{¿ffÜ@â[ø!9*?A9¿√ıà@˘uéøÓH@Ú‚*?=
+ó@™‘Ú?PÒB@bÄ?öôô@i—Á?°
+O@mt>ˆ(ú@qQﬁ?=Cè@Ú`?R∏û@úC+@ÅÈJ@Ôí%?ÆG°@=NÙ?õ#L@ë'?
+◊£@ø‰ı?sM@Ä ?ff¶@ ìı?r◊⁄@Hæ?√ı®@.Ö@
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> scheme K1f28c9ecc28 
+.setscheme , scheme(stcolor) naturallywhite(1)
+<EndItem>
+<BeginItem> twowaygraph_g K1f28ee24028 <UseScheme> K1f28c9ecc28
+.sersets[1] = .__Map.K1f28ee24898.ref
+.insert (plotregion1 = .plotregion.new , style(scheme twoway) graph(`.objkey')) at 1 1
+.plotregion1.Declare plot1 = .y2xview_g.new , type(rcap) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bup_base') xvariable(`.sersets[1].seriesof indx1')     plotregion(`.plotregion1.objkey') style(scheme p1) ybvar(`.sersets[1].seriesof bdn_base')
+.plotregion1.plot1.style.editstyle line(color(navy)) area(linestyle(color(navy))) editcopy
+.plotregion1.plot1.bar_drop_to.setstyle , style(x)
+.plotregion1.Declare plot2 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bvl_base') xvariable(`.sersets[1].seriesof indx1')     plotregion(`.plotregion1.objkey') style(scheme p2) 
+.plotregion1.plot2.style.editstyle marker(symbol(circle)) marker(fillcolor(blue*.3)) marker(size(1.0)) marker(linestyle(color(blue))) editcopy
+.plotregion1.Declare plot3 = .y2xview_g.new , type(rcap) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bup_city') xvariable(`.sersets[1].seriesof indx2')     plotregion(`.plotregion1.objkey') style(scheme p3) ybvar(`.sersets[1].seriesof bdn_city')
+.plotregion1.plot3.style.editstyle line(color(navy)) area(linestyle(color(navy))) editcopy
+.plotregion1.plot3.bar_drop_to.setstyle , style(x)
+.plotregion1.Declare plot4 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bvl_city') xvariable(`.sersets[1].seriesof indx2')     plotregion(`.plotregion1.objkey') style(scheme p4) 
+.plotregion1.plot4.style.editstyle marker(symbol(circle)) marker(fillcolor(red*.3)) marker(size(1.0)) marker(linestyle(color(blue))) editcopy
+.plotregion1.Declare plot5 = .y2xview_g.new , type(rcap) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bup_ind') xvariable(`.sersets[1].seriesof indx3')     plotregion(`.plotregion1.objkey') style(scheme p5) ybvar(`.sersets[1].seriesof bdn_ind')
+.plotregion1.plot5.style.editstyle line(color(navy)) area(linestyle(color(navy))) editcopy
+.plotregion1.plot5.bar_drop_to.setstyle , style(x)
+.plotregion1.Declare plot6 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bvl_ind') xvariable(`.sersets[1].seriesof indx3')     plotregion(`.plotregion1.objkey') style(scheme p6) 
+.plotregion1.plot6.style.editstyle marker(symbol(circle)) marker(fillcolor(green*.3)) marker(size(1.0)) marker(linestyle(color(green))) editcopy
+.plotregion1.Declare plot7 = .y2xview_g.new , type(rcap) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bup_eff') xvariable(`.sersets[1].seriesof indx4')     plotregion(`.plotregion1.objkey') style(scheme p7) ybvar(`.sersets[1].seriesof bdn_eff')
+.plotregion1.plot7.style.editstyle line(color(navy)) area(linestyle(color(navy))) editcopy
+.plotregion1.plot7.bar_drop_to.setstyle , style(x)
+.plotregion1.Declare plot8 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bvl_eff') xvariable(`.sersets[1].seriesof indx4')     plotregion(`.plotregion1.objkey') style(scheme p8) 
+.plotregion1.plot8.style.editstyle marker(symbol(circle)) marker(fillcolor(magenta*.3)) marker(size(1.0)) marker(linestyle(color(magenta))) editcopy
+.plotregion1.Declare plot9 = .y2xview_g.new , type(rcap) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bup_unemp') xvariable(`.sersets[1].seriesof indx5')     plotregion(`.plotregion1.objkey') style(scheme p9) ybvar(`.sersets[1].seriesof bdn_unemp')
+.plotregion1.plot9.style.editstyle line(color(navy)) area(linestyle(color(navy))) editcopy
+.plotregion1.plot9.bar_drop_to.setstyle , style(x)
+.plotregion1.Declare plot10 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bvl_unemp') xvariable(`.sersets[1].seriesof indx5')     plotregion(`.plotregion1.objkey') style(scheme p10) 
+.plotregion1.plot10.style.editstyle marker(symbol(circle)) marker(fillcolor(maroon*.3)) marker(size(1.0)) marker(linestyle(color(maroon))) editcopy
+.plotregion1.Declare plot11 = .y2xview_g.new , type(rcap) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bup_actopn') xvariable(`.sersets[1].seriesof indx6')     plotregion(`.plotregion1.objkey') style(scheme p11) ybvar(`.sersets[1].seriesof bdn_actopn')
+.plotregion1.plot11.style.editstyle line(color(navy)) area(linestyle(color(navy))) editcopy
+.plotregion1.plot11.bar_drop_to.setstyle , style(x)
+.plotregion1.Declare plot12 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bvl_actopn') xvariable(`.sersets[1].seriesof indx6')     plotregion(`.plotregion1.objkey') style(scheme p12) 
+.plotregion1.plot12.style.editstyle marker(symbol(circle)) marker(fillcolor(mint*.3)) marker(size(1.0)) marker(linestyle(color(mint))) editcopy
+.plotregion1.Declare plot13 = .y2xview_g.new , type(rcap) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bup_une_act') xvariable(`.sersets[1].seriesof indx7')     plotregion(`.plotregion1.objkey') style(scheme p13) ybvar(`.sersets[1].seriesof bdn_une_act')
+.plotregion1.plot13.style.editstyle line(color(navy)) area(linestyle(color(navy))) editcopy
+.plotregion1.plot13.bar_drop_to.setstyle , style(x)
+.plotregion1.Declare plot14 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bvl_une_act') xvariable(`.sersets[1].seriesof indx7')     plotregion(`.plotregion1.objkey') style(scheme p14) 
+.plotregion1.plot14.style.editstyle marker(symbol(circle)) marker(fillcolor(navy*.3)) marker(size(1.0)) marker(linestyle(color(navy))) editcopy
+.plotregion1.Declare plot15 = .y2xview_g.new , type(rcap) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bup_ihs') xvariable(`.sersets[1].seriesof indx8')     plotregion(`.plotregion1.objkey') style(scheme p15) ybvar(`.sersets[1].seriesof bdn_ihs')
+.plotregion1.plot15.style.editstyle line(color(navy)) area(linestyle(color(navy))) editcopy
+.plotregion1.plot15.bar_drop_to.setstyle , style(x)
+.plotregion1.Declare plot16 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof bvl_ihs') xvariable(`.sersets[1].seriesof indx8')     plotregion(`.plotregion1.objkey') style(scheme p1) 
+.plotregion1.plot16.style.editstyle marker(symbol(circle)) marker(fillcolor(cyan*.3)) marker(size(1.0)) marker(linestyle(color(cyan))) editcopy
+.plotregion1.clear_scales
+.plotregion1.reset_scales , noclear
+.n_views = 16
+.n_plotregions = 1
+.last_style = 16
+.x_scales = `" "1""'
+.y_scales = `" "1""'
+.create_axes 1 1 "9" "" 9
+.style.editstyle legend_position(6) editcopy
+.insert (legend = .legend_g.new, graphs(`.objkey') style(scheme)) below plotregion1 , ring(3) 
+.legend.style.editstyle box_alignment(S) editcopy
+.legend.holes = ""
+.legend.style.editstyle  force_draw(no) force_nodraw(yes) editcopy
+.legend.style.editstyle labelstyle( size(small)) editcopy
+.legend.holes = ""
+.legend.style.editstyle  rows(6) force_draw(yes) force_nodraw(no) editcopy
+.legend.insert (note = .sized_textbox.new, mtextq(`""') style(scheme leg_note) ) below plotregion1 , ring(3) 
+.legend.note.style.editstyle box_alignment(SW) editcopy
+.legend.note.style.editstyle horizontal(left) editcopy
+.legend.insert (caption = .sized_textbox.new, mtextq(`""') style(scheme leg_caption) ) below plotregion1 , ring(5) 
+.legend.caption.style.editstyle box_alignment(SW) editcopy
+.legend.caption.style.editstyle horizontal(left) editcopy
+.legend.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme leg_subtitle) ) above plotregion1 , ring(6) 
+.legend.subtitle.style.editstyle box_alignment(N) editcopy
+.legend.subtitle.style.editstyle horizontal(center) editcopy
+.legend.insert (title = .sized_textbox.new, mtextq(`""') style(scheme leg_title) ) above plotregion1 , ring(7) 
+.legend.title.style.editstyle box_alignment(N) editcopy
+.legend.title.style.editstyle horizontal(center) editcopy
+.legend.rebuild
+.legend.parse_order 2 "baseline" 4 "group specific trend: city" 6 "group specific trend: industry" 8 "group specific trend: city, industry and others" 10 "unemployment rate" 12 "active opening ratio" 14 "unemployment rate and active opening rate" 16 "inverse hypebolic sine"
+.legend.repositionkeys
+.xaxis1.addmin 1
+.xaxis1.addmax 1
+.xaxis1.major.clear
+.xaxis1.major.add_ticks  0 `"2015"' 1 `"2016"' 2 `"2017"' 3 `"2018"' 4 `"2019"' 5 `"2020"' ,  
+.xaxis1.major.set_default 0
+.xaxis1.reset_scale reinit
+.xaxis1.style.editstyle majorstyle( tickangle(0) tickstyle(  textstyle( size(small))) ) editcopy
+.xaxis1.title.edit , mtextq(`""""')   replace
+tempname glsty
+.`glsty' = .gridlinestyle.new, style(scheme)
+.`glsty'.editstyle  linestyle( color(red) width(medthick)) editcopy
+.yaxis1.plotregion.declare_xyline .gridline_g.new 0 , ordinate(y) plotregion(`.yaxis1.plotregion.objkey') styleref(`glsty') 
+.insert (r1title = .sized_textbox.new, mtextq(`""') style(scheme r1title) orientation(vertical)) rightof plotregion1 , ring(1) 
+.insert (r2title = .sized_textbox.new, mtextq(`""') style(scheme r2title) orientation(vertical)) rightof plotregion1 , ring(2) 
+.insert (l1title = .sized_textbox.new, mtextq(`""') style(scheme l1title) orientation(vertical)) leftof plotregion1 , ring(1) 
+.insert (l2title = .sized_textbox.new, mtextq(`""') style(scheme l2title) orientation(vertical)) leftof plotregion1 , ring(2) 
+.insert (t1title = .sized_textbox.new, mtextq(`""') style(scheme t1title) ) above plotregion1 , ring(1) 
+.insert (t2title = .sized_textbox.new, mtextq(`""') style(scheme t2title) ) above plotregion1 , ring(2) 
+.insert (b1title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(1) 
+.insert (b2title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(2) 
+.insert (note = .sized_textbox.new, mtextq(`""') style(scheme note) ) below plotregion1 , ring(4) 
+.note.style.editstyle box_alignment(SW) editcopy
+.note.style.editstyle horizontal(left) editcopy
+.insert (caption = .sized_textbox.new, mtextq(`""') style(scheme caption) ) below plotregion1 , ring(5) 
+.caption.style.editstyle box_alignment(SW) editcopy
+.caption.style.editstyle horizontal(left) editcopy
+.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme subtitle) ) above plotregion1 , ring(6) 
+.subtitle.style.editstyle box_alignment(N) editcopy
+.subtitle.style.editstyle horizontal(center) editcopy
+.insert (title = .sized_textbox.new, mtextq(`""""') style(scheme title) ) above plotregion1 , ring(7) 
+.title.style.editstyle box_alignment(N) editcopy
+.title.style.editstyle horizontal(center) editcopy
+.insert (spacert = .spacer.new) above plotregion1 , ring(11)
+.insert (spacerb = .spacer.new) below plotregion1 , ring(11)
+.insert (spacerl = .spacer.new) leftof plotregion1 , ring(11)
+.insert (spacerr = .spacer.new) rightof plotregion1 , ring(11)
+.command = `"twoway rcap bup_base bdn_base indx1,lcolor(navy)  || scatter bvl_base indx1,msize(1.0) ms(circle)  mlcolor(blue) mfcolor(blue*.3)  || rcap bup_city bdn_city indx2,lcolor(navy)  || scatter bvl_city indx2,msize(1.0) ms(circle)  mlcolor(blue) mfcolor(red*.3)  || rcap bup_ind bdn_ind indx3,lcolor(navy)  || scatter bvl_ind indx3,msize(1.0) ms(circle)  mlcolor(green) mfcolor(green*.3) ||  rcap bup_eff bdn_eff indx4,lcolor(navy)  || scatter bvl_eff indx4 , msize(1.0) ms(circle)  mlcolor(magenta) mfcolor(magenta*.3) || rcap bup_unemp bdn_unemp indx5,lcolor(navy)  || scatter bvl_unemp indx5,msize(1.0) ms(circle)  mlcolor(maroon) mfcolor(maroon*.3)  || rcap bup_actopn bdn_actopn indx6,lcolor(navy)  || scatter bvl_actopn indx6,msize(1.0) ms(circle)  mlcolor(mint) mfcolor(mint*.3) ||  rcap bup_une_act bdn_une_act indx7,lcolor(navy)  || scatter bvl_une_act indx7 , msize(1.0) ms(circle)  mlcolor(navy) mfcolor(navy*.3) || rcap bup_ihs bdn_ihs indx8,lcolor(navy)  || scatter bvl_ihs indx8 , msize(1.0) ms(circle)  mlcolor(cyan) mfcolor(cyan*.3)  name("",replace)  saving("event_graph_fu20_2_single_iv",replace) legend(off) title("")  xtitle("")  xsc(range(1 ))  xlabel(0 "2015" 1 "2016" 2 "2017" 3 "2018" 4 "2019" 5 "2020",  labsize(small) angle(0)) legend(on order(2 "baseline" 4 "group specific trend: city" 6 "group specific trend: industry" 8 "group specific trend: city, industry and others" 10 "unemployment rate" 12 "active opening ratio" 14 "unemployment rate and active opening rate" 16 "inverse hypebolic sine") row(6) position(6) size(small)) yline(0, lcolor(red) lwidth(medthick))"'
+.date = "26 Oct 2025"
+.time = "11:00:17"
+.dta_file = "suicide_f_reduced.dta"
+.dta_date = "26 Oct 2025 11:00"
+<EndItem>

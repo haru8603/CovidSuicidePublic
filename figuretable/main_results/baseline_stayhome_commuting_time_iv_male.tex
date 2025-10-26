@@ -1,0 +1,20 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{D{.}{.}{-1}}}
+\toprule
+                    &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{1st Stage}&\multicolumn{1}{c}{IV}&\multicolumn{1}{c}{Reduced form}\\\cmidrule(lr){2-2}\cmidrule(lr){3-3}\cmidrule(lr){4-4}\cmidrule(lr){5-5}
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+\midrule
+$\Delta StayHome$   &       0.745&            &       1.058&            \\
+                    &     (0.335)&            &     (0.424)&            \\
+                    &     [0.026]&            &     [0.012]&            \\
+$\Delta ShiftShare$ &            &       1.620&            &       1.714\\
+                    &            &     (0.037)&            &     (0.687)\\
+                    &            &     [0.000]&            &     [0.013]\\
+\midrule
+Effective F statistic&            &           .&            &            \\
+$\tau$=10\%         &            &           .&            &            \\
+Observations        &       1,241&       1,241&       1,241&       1,241\\
+\bottomrule
+\end{tabular}
+}

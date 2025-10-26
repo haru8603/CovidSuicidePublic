@@ -3,6 +3,11 @@
 .RData
 .Ruserdata
 .csv
+data/
 suicide_analysis_data.dta
 suicide_analysis_data_static.dta
 from_to_population_flow_hour_agoop.dta
+models.ster
+temp2.dta
+temp1.dta
+temp0.dta
