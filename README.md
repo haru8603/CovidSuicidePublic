@@ -32,9 +32,3 @@ The data are available upon request to the corresponding authors.
 - ```main```: Storage code for estimation, figures, and tables.
 - ```data```: Storage cleaned data.
 - ```figuretable```: Storage figures and tables.
-
-# Code Structure
-- ```estimate_main_result.ipynb```: Make estimation results. 
-- ```introduction_model_data.ipynb```: Make figures in introduction, model, and data section.
-- ```appendix.ipynb```: Run additional estimation and tables in the online appendix. 
-
