@@ -30,5 +30,4 @@ The data are available upon request to the corresponding authors.
 
 # Folder Structure
 - ```main```: Storage code for estimation, figures, and tables.
-- ```data```: Storage cleaned data.
 - ```figuretable```: Storage figures and tables.
